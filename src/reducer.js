@@ -34,12 +34,4 @@ const counterReducer = (state = initialState, action) => {
   
 }
 
-const aumentarValor = (valor)=>valor+1
-// export const sumCounter = ()=>{
-//   return {
-//     type: action.type,
-
-//   }
-// }
-
 export default counterReducer
